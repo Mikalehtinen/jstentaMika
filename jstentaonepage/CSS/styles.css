@@ -1,0 +1,53 @@
+html{
+  height: auto;
+}
+ul{
+  list-style-type: none;
+  position: fixed;
+  margin-top: 100px;
+  padding: 0;
+}
+li a{
+  font-style: helvetica;
+  font-size: 30px;
+  display:block;
+  width: 250px;
+  color: #000;
+  text-decoration: none;
+  background-color: lightgrey;
+  opacity: 0.4;
+}
+#navbar{
+  width: 100px;
+}
+.maincontent{
+  width: 80%;
+  float: right;
+  border-style: solid;
+  border-color: black;
+}
+/* Inställningar för bilderna  */
+#art1 img{
+  height: 30%;
+  width: 30%;
+  float: right;
+  border-style: solid;
+  border-color: orange;
+}
+#art2 img{
+  height: 30%;
+  width: 30%;
+  float: right;
+}
+#art3 img{
+  height: 30%;
+  width: 30%;
+  float: right;
+
+}
+h1{
+  text-align: center;
+}
+#art1, #art2, #art3{
+  background-color: lightgrey;
+}
